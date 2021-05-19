@@ -19,3 +19,8 @@ jobs:
         with:
           http_url: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&apikey=THA8285D4I7V2KAO
           downloaded_filename: share-price.json
+          python-version: 3.x
+      - name: excute py file 
+        run: |
+          pip install --upgrade pip
+          python postprocess.py
