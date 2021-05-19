@@ -1,4 +1,4 @@
-name: data
+name: Flat-date update
 on:
   schedule:
     - cron: "*/5 * * * *"
