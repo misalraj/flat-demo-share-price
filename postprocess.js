@@ -1,4 +1,4 @@
-import { readJSON, readImageFromURL, writeImage } from 'https://deno.land/x/flat@0.0.10/mod.ts'
+import { readJSON, writeJSON, readImageFromURL, writeImage, removeFile } from 'https://deno.land/x/flat@0.0.10/mod.ts'
 
 // Step 1: Read the downloaded_filename JSON
 const filename = Deno.args[0] // Same name as downloaded_filename `const filename = 'share-price.json';`
