@@ -12,6 +12,7 @@ const shareData = Object.values(json['Time Series (Daily)']); // convert propert
 //     bitcoinRate: rate.rate
 // }));
 
+
 // Step 3. Write a new JSON file with our filtered data
 const newFilename = `share-price-postprocessResults.json` // name of a new file to be saved
 await writeJSON(newFilename, shareData) 
