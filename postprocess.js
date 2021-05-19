@@ -17,3 +17,5 @@ const shareData = Object.values(json['Time Series (Daily)']); // convert propert
 const newFilename = `share-price-postprocessResults.json` // name of a new file to be saved
 await writeJSON(newFilename, shareData) 
 console.log("Wrote a post process file")
+
+
