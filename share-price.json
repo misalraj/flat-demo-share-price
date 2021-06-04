@@ -2,11 +2,18 @@
     "Meta Data": {
         "1. Information": "Daily Prices (open, high, low, close) and Volumes",
         "2. Symbol": "IBM",
-        "3. Last Refreshed": "2021-06-03",
+        "3. Last Refreshed": "2021-06-04 16:00:01",
         "4. Output Size": "Compact",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2021-06-04": {
+            "1. open": "146.0000",
+            "2. high": "147.5500",
+            "3. low": "145.7600",
+            "4. close": "147.4200",
+            "5. volume": "3105557"
+        },
         "2021-06-03": {
             "1. open": "144.9100",
             "2. high": "145.8800",
@@ -699,13 +706,6 @@
             "3. low": "127.9400",
             "4. close": "129.2100",
             "5. volume": "3729068"
-        },
-        "2021-01-11": {
-            "1. open": "127.9500",
-            "2. high": "129.6750",
-            "3. low": "127.6600",
-            "4. close": "128.5800",
-            "5. volume": "5602466"
         }
     }
 }
